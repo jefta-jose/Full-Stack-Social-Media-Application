@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    ::-webkit-scrollbar {
+        display: none;
+        
+    }
+    overflow: hidden;
+
+.navbar {
+    background-color: #ffffff;
+    height: 10vh;
+}
+.mainBottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #717171;
+    height: 90vh; //edit this one
+
+    .sidebar {
+        width: 17%;
+        background-color: #ffffff;
+    }
+    .mainContent {
+        width: 62%;
+        background-color: #9e9e9e;
+        overflow: scroll;
+    }
+    .rightBar {
+        width: 20%;
+        background-color: #ffffff;
+    }
+}
+}
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+}

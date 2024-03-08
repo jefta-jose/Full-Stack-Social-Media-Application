@@ -1,0 +1,72 @@
+.profileStatusPost {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 10px;
+    border-radius: 13px;
+    background-color: #ffffff;
+
+    .profileStatusPostHeader {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    
+        .user {
+            .username {color: #0F172A;}
+            .postDate {color: #94A3B8;}
+        }
+    } 
+
+    .profileStatusPostHeader {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .user {
+            .username {color: #0F172A;}
+            .postDate {color: #94A3B8;}
+        }
+    }    
+    .profileStatusPostImageContent {
+        border-bottom: 1px solid #F1F5F9;
+    }
+    .profileStatusPostInteraction {
+        display: flex;
+        justify-content: space-around;
+
+        .like {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #2563EB;
+        }
+        .comment, .share {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #94A3B8;}
+    }
+    .profileStatusPostComment {
+        display: flex;
+        align-items: center;
+        padding: 16px 10px 16px 10px;
+        background-color: #F8FAFC;
+        border-radius: 13px;
+
+        input {
+            display: flex;
+            align-items: center;
+            width: 87%;
+            border: none;
+            background-color: #F8FAFC;
+        }
+
+        .btnIcons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 10%;
+            color: #94A3B8;
+        }
+    }
+}

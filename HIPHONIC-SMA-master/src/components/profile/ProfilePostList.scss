@@ -1,0 +1,12 @@
+.UserPostsList {
+    width: 100%;
+    // display: flex;
+    // gap: 20px;
+
+    sections {
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        overflow: scroll;
+    }
+}

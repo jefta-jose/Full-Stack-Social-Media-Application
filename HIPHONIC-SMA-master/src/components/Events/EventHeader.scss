@@ -1,0 +1,16 @@
+.events-page-header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #F1F5F9;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: space-between;
+    .create button {
+        padding: 20px 20px;
+        margin-right: 20px;
+        // background-color: rgb(71, 105, 179);
+    }
+}

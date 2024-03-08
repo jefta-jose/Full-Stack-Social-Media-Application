@@ -1,0 +1,44 @@
+
+
+.add-photo-form {
+  margin-bottom: 20px;
+  margin-left: 550px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  
+.input {
+  margin-bottom: 10px; 
+  background-color: white;
+}
+
+.input input {
+  width: 80%;
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  // border-color: #007bff;
+  // background-color:white;
+}
+
+#uploadbutton{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+  transition: background-color 0.3s ease;
+  box-shadow: #ccc;
+
+  // width: 10px;
+}
+
+button:hover {
+  // background-color: #0056b3; 
+}
+  // background-color: white;
+}
+

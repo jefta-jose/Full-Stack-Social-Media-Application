@@ -1,0 +1,45 @@
+
+  .side-menu {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    .menu-heading {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding: 0 20px;
+      p {
+        color: #94a3b8;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+   
+    .menu-item{
+      display: flex;
+      gap: 8px;
+      padding: 6px;
+      color: #64748B;
+    }
+    .active {
+      font-weight: bold;
+      color: blue;
+         
+      &:before {
+        content: ''; 
+        color: blue; 
+        background-color: blue;
+        margin-left: -10px;
+        height: 20px;
+        width: 3px;
+      }
+      img {
+        filter: brightness(150%); 
+      }
+    }
+  }

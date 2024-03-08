@@ -1,0 +1,47 @@
+.shortcuts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    // margin: 20px;
+    // background-color: gold;
+  
+  
+  
+    .heading {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-top: 5px;
+      // margin-left: 5px;
+      // margin-bottom: 5px;
+      margin: 5px;
+  
+      h3 {
+         text-transform: uppercase;
+      }
+    }
+  
+    .shortcuts{
+      margin: 0;
+    }
+    .heading{
+      margin-top: 0;
+    }
+    
+    .item {
+  
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 5px;
+      padding: 5px 1px;
+      color: #0F172A;
+      // margin: 4px;
+      margin-left: 5px;
+      margin-top: 5px;
+      p {
+        font-weight: 600;
+        font-size: 14px;
+      }
+    }
+  }

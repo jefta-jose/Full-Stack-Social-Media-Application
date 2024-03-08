@@ -1,0 +1,16 @@
+.complete-profile{
+    font-size: 14px;
+    font-weight: 600;
+
+    .scale {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        progress {
+            width: 80%;
+        }
+    }
+
+}

@@ -1,0 +1,22 @@
+.members-images{
+    display: flex;
+    align-items: center;
+    .group-para{
+        background-color: #F8FAFC;
+        border: 1px solid #94A3B8;
+        border-radius: 50%;
+        padding: 8px;
+        color: #94A3B8;
+        font-size: 12px;
+        font-weight: 600;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            font-size: 20px;
+
+        }
+    }
+}

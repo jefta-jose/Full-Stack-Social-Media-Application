@@ -1,0 +1,80 @@
+.timeContainer {
+  border-radius: 8px;
+  height: 100%;
+
+  .timeline-menu {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+
+    .timelines {
+      display: flex;
+      gap: 2rem;
+      padding: 2rem;
+      .first-icons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .user-items {
+          display: flex;
+          flex-direction: row;
+          .you-user {
+            img {
+              border-radius: 50%;
+              width: 50px;
+              height: 50px;
+            }
+          }
+          .plus-icon {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin-left: -10px;
+          }
+        }
+      }
+      .timeline-card-top {
+        img {
+          border: 2px solid blue;
+          border-radius: 50%;
+
+          width: 50px;
+          height: 50px;
+        }
+      }
+    }
+    .timeline-heading {
+      padding: 2rem;
+      border-bottom: 2px solid #f1f5f9;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .timeContainer {
+    width: 100%;
+    .timeline-menu {
+      .timelines {
+        gap: 1rem;
+        .first-icons {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100px;
+          .user-items {
+            display: flex;
+            flex-direction: row;
+            height: 100%;
+            .plus-icon {
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+              margin-left: -10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

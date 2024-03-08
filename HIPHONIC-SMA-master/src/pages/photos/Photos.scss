@@ -1,0 +1,109 @@
+.photobum {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+
+
+  .yourphotos {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    align-items: center;
+    
+  }
+  
+  .photos-content p:hover {
+    color: aqua;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: aliceblue;
+    
+  }
+  .yourphotos h1 {
+    font-size: 22px;
+    font-weight: 900;
+  }
+  .yourphotos h1:hover {
+    font-size: 10px;
+    font-weight: 300;
+    color: aqua;
+    
+    
+  }
+  .yourphotos h1:hover {
+   
+    color: rgb(25, 121, 177);
+    
+  }
+  .photos-content {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 2rem;
+    margin-right: 4rem;
+    background-color: white;
+    width: 40%;
+  }
+  
+  .total {
+    margin-bottom: 20px;
+    background-color: white;
+    width: 20%;
+  }
+  
+  .images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    margin: 5px;
+    margin-top: 10px;
+    background-color: white;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .image-container img {
+    width: 35vh;
+    border-radius: 8px;
+    height: auto;
+    display: block;
+  }
+  
+  .photo-reaction {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(212, 210, 221, 0.5);
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+    
+  image-container:hover .photo-reaction {
+    opacity: 1; 
+  }
+  
+  .photo-reaction div {
+    margin: 5px;
+    color: #1350d1;
+    
+  }
+  
+  .photo-reaction div svg {
+    font-size: 24px;
+  
+  }
+  
+  }
+  
+  
+  
+}
+

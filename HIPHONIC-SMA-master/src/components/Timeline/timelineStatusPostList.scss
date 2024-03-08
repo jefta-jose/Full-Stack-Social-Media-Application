@@ -1,0 +1,11 @@
+.timelineStatusPostList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .timelineListSection {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}

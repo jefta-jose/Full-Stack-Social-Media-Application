@@ -1,0 +1,216 @@
+
+.Top{
+   width: 100%;
+   background-color: white;
+
+    .BackGround{
+        width: 100%;
+
+        .blueimage{
+            width: 100%;
+            .btn{
+                width: 100%;
+                height: 35vh;
+                background: url('../../assets/profile-background.png');
+                background-size: cover;
+                background-repeat: no-repeat;
+                display: flex;
+                justify-content: end;
+                .profile-btn{
+                    margin: 20px;
+                    padding: 0.5rem 2rem;
+                    background-color: white;
+                    border-radius: 5px;
+                    border: none;
+                    outline: none;           
+                }
+            }
+          .profile-img-top{
+            img{
+                border-radius: 50%;
+                margin-right: 10px;
+                width: 80px; 
+                height: 80px;
+            }
+          }
+            .avatar{
+                margin-top: -50px;
+                width: 10%;
+                margin-left: 50px;
+            }
+
+        }
+    }
+    .bottom-top{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: 0.5rem;
+        // width: 100%;
+        gap: 20px;
+        align-items: center;
+       }
+        .head-pro{
+            flex: 0.2;
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+            p{
+                color: #64748B;
+            }
+        }
+    
+    
+        .navs{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            flex: 0.7;
+            background-color: #F8FAFC;
+            width: 10%;
+            // gap: 30px;
+            padding: 1rem;
+
+            .posts,.post{
+                width: 20%;
+                padding: 0 10px;
+                display: flex;
+                flex-direction: column;
+    
+            }
+            .posts{
+                border-right: 2px solid rgb(202, 200, 200);
+            }
+        }
+    
+        .dim-header{
+            font-size: 20px;
+            color: rgb(165, 165, 165);
+        }
+       
+    }
+    
+   
+
+    @media screen and (max-width: 768px){
+        .Top{
+            width: 100%;
+            margin: 10px auto;
+            .BackGround{
+                width: 100%;
+                .blueimage{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .btn{
+                        background-size: 100%;
+                    }
+                    .avatar{
+                        margin-top: -100px;
+                        width: 30%;
+                        margin-left: 0px;
+                    }
+                }
+            }
+            .bottom-top{
+                flex-direction: column;
+                align-items: center;
+                .head-pro{
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 0;
+                    h2{
+                        font-size: 30px;
+                    }
+            
+                }
+                .navs{
+                    padding: 0;
+                    gap: 6px;
+                    font-size: 12px;
+                    .posts,.post{
+                        padding: 0;
+                        .dim-header{
+                            font-size: 12px;
+    
+                        }
+                    }
+                }
+                   }
+                    
+        }
+    }
+
+
+@media screen and (max-width: 500px){
+    .Top{
+        width: 100%;
+        margin: 10px auto;
+        .BackGround{
+            width: 100%;
+            .blueimage{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .btn{
+                    background-size: 100%;
+                }
+                .avatar{
+                    margin-top: -100px;
+                    width: 30%;
+                    margin-left: 0px;
+                }
+            }
+        }
+        .bottom-top{
+            flex-direction: column;
+            align-items: center;
+            .head-pro{
+                flex-direction: column;
+                align-items: center;
+                margin-left: 0;
+                h2{
+                    font-size: 30px;
+                }
+        
+            }
+            .navs{
+                padding: 0;
+                gap: 6px;
+                font-size: 12px;
+                .posts,.post{
+                    padding: 0;
+                    .dim-header{
+                        font-size: 12px;
+
+                    }
+                }
+            }
+               }
+                
+    }
+}
+
+@media screen and (max-width: 330px){
+    .Top{
+        width: 100%;
+        margin: 10px auto;
+       
+        .bottom-top{
+            
+            .navs{
+             
+                .posts,.post{
+                    flex-wrap: wrap;
+                    padding: 10px 0;
+                    .dim-header{
+                        font-size: 10px;
+                    }
+                }
+            }
+               }
+                
+    }
+}

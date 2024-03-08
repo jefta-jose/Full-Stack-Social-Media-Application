@@ -1,0 +1,52 @@
+.myVideo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 13px;
+
+    .videosBottomProfile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .div {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            // width: 30%;
+
+            .user {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                gap: 10px;
+            }
+        }
+    }
+
+    .videosBottomPost {
+        font-weight: 500;
+        font-size: 18px;
+        color: #64748B;
+
+        .myVideoView {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .video-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: fit-content;
+                border-radius: 13px;
+
+                video {
+                    border-radius: 13px;
+                }
+            }
+        }
+    }
+}

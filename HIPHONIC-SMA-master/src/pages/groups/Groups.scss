@@ -1,0 +1,46 @@
+.group-right-content{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F8FAFC;
+    overflow: hidden;
+    width: 100%;
+    .group-middle-content{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 100%; 
+    gap: 25px;
+    border-radius: 8px;
+    h2{
+        padding: 14px 10px;
+    }
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .group-right-content{
+        background-color: #F8FAFC;
+        .group-middle-content{
+            width: 90vw;
+            flex-direction: column;
+            margin: 20px auto;    
+            
+        }
+    
+    
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 820px){
+    .group-right-content{
+        width: 100vw;
+        background-color: #F8FAFC;
+        .group-middle-content{
+            width: 94%;
+            margin: 20px auto;    
+            
+        }   
+    
+    }
+}
+

@@ -1,0 +1,57 @@
+
+.modal-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    height: px;
+  
+  
+ 
+  .close {
+    position: absolute;
+    top: 10px;
+    // right: 400px;
+    cursor: pointer;
+
+  .close-icon {
+    font-size: 24px;
+    color: #555555;
+  }
+}
+
+  .form {
+    margin-top: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  
+  
+  .input-field {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 50px;
+  
+  }}
+  
+
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 40px 80px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+}

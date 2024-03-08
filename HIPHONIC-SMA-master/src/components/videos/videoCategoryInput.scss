@@ -1,0 +1,29 @@
+.videoCategoryInputComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+.videoCategoryInputContainer {
+    padding: 10px;
+    
+    .videoCategoryInputForm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0 10px 0;
+        gap: 10px;
+
+        input {
+            padding: 10px;
+        }
+
+        button {
+            padding: 10px;
+            color: blue;
+            font-weight: 700;
+        }
+    }
+}
+}

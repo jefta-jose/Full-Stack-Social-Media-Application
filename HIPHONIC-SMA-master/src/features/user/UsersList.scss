@@ -1,0 +1,17 @@
+.user-container{
+    // background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0 auto;
+    // width: 90%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.suggested-friends-title{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+}

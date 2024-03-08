@@ -1,0 +1,10 @@
+.profileStatusPostHeader {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .user {
+        .username {color: #0F172A;}
+        .postDate {color: #94A3B8;}
+    }
+} 

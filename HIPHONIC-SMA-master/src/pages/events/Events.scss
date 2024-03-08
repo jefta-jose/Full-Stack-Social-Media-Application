@@ -1,0 +1,14 @@
+.event-right-content{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F8FAFC;
+  width: 100%;
+  .event-middle-content{
+      margin: 10px auto;
+      width: 100%; 
+      background-color: white;
+      border-radius: 10px;   
+
+  }
+
+}

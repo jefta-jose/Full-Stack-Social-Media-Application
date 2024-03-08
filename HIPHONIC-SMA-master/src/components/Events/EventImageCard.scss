@@ -1,0 +1,27 @@
+.event-image-card {
+    position: relative;
+
+    .event-image-top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        h3{
+            // background-color:#ED4F9D;
+            // color: white;
+            // padding: 10px 14px;
+            // border-radius: 10px;
+            // font-size: 12px;
+        }
+    }
+
+    .event-card-image {
+        width: 100%;
+        height: auto;
+        z-index: -1; 
+    }
+}

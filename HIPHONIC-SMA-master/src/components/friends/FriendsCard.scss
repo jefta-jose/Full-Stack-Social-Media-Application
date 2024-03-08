@@ -1,0 +1,111 @@
+.friendsContainer {
+    background-color: white;
+    border-radius: 8px;
+    height: 100%;
+    border-radius: 10px;
+    .friends-menu{
+        display: flex;
+        flex-wrap: wrap;
+        .friendsCard{
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+           
+            .friend{
+                display: flex;
+                flex-direction: column;
+                background-color: #F8FAFC;
+                width: 27vw;
+                margin: 20px;
+                padding: 1rem;
+                gap: 2rem;
+                border-radius: 8px;
+                .friends-card-top{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .img-name{
+                        display: flex;
+                        align-items: center;
+                        gap: 2rem;
+                        .friends-name{
+                            display: flex;
+                            flex-direction: column;
+                            gap: .5rem;
+                        }
+                    }
+                }
+                .btn{
+                    width: 100%;
+                    Button{
+                        width: 100%;
+                        background-color: white;
+                        padding: 1rem 0;
+                        border: none;
+                        border-radius: 8px;
+                        color: blue;
+                        font-size: 17px;
+                        font-weight: 600;
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+           
+    }
+
+  
+  }
+
+  @media screen and (max-width: 500px){
+    .friendsContainer {
+        width: 90vw;
+        height: 100%;
+        margin: 0 auto;
+        .friends-menu{
+            flex-direction: column;
+            width: 100%;
+            .friendsCard{
+                width: 100%;
+                .friend{
+                    width: 100%;
+                    .friends-card-top{
+                        width: 100%;
+                       
+                    }
+            
+                }
+            }
+               
+        }
+    
+      
+      }
+  }
+
+
+
+  @media screen and (min-width: 501px){
+    .friendsContainer {
+       border-radius: 8px;
+        height: 100%;
+        .friends-menu{
+          
+            width: 100%;
+            .friendsCard{
+                margin: 0 auto;
+                width: 50%;
+                .friend{
+                    // width: 50%;
+                    width: 100%;
+                
+                
+                }
+            }
+               
+        }
+    
+      
+      }
+  }

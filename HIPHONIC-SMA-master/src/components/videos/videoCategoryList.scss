@@ -1,0 +1,10 @@
+.CategoryList {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    .categoriesListSection {
+        display: flex;
+        gap: 20px;
+    }
+}

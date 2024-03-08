@@ -1,0 +1,35 @@
+.Friendscard{
+    width: 40%;
+    // height: 100%;
+    background-color: #F8FAFC;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    padding: 1rem;
+    .friends-content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .friends-btn{
+            display: flex;
+            flex-direction: row;
+            gap: 3rem;
+            .add-friend-btn{
+                Button{
+                    padding: 10px;
+                    background-color: blue;
+                    color: white;
+                    border-radius: 5px;
+                }
+                
+            }
+            .remove-friend-btn{
+                Button{
+                    padding: 10px;
+                    border-radius: 5px;
+                }
+                
+            }
+        }
+    }
+}

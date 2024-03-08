@@ -1,0 +1,29 @@
+.sideProfile {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+    .leftprofile {
+      margin-top: 10px;
+      padding: 1px;
+      margin-right: 90px;
+      .Profilename {
+        font-weight: 600;
+        font-size: 14px;
+      }
+      .username {
+        font-size: 12px;
+      }
+    }
+    .SideImage{ 
+      .side-imgn-profile{
+      border-radius: 50%;
+      margin-right: 10px;
+      width: 40px; 
+      height: 40px;
+      }
+  }
+    }
+

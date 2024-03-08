@@ -1,0 +1,65 @@
+.single-group-container{
+    padding: 20px 0;
+    width: 100%;
+    .single-recent-sub-titles{
+        font-size: 20px;
+    }
+    .recent-group-card-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 10px 5px;
+        flex-wrap: wrap;
+        
+       padding: 1rem 0;
+        .card-contents{
+            width: 80%;
+            margin: 0 auto;
+            background-color: #F8FAFC;
+            border-radius: 12px;
+            margin: 0 auto;
+            .post-card-head{
+                width: 90%;
+                margin: 0 auto;
+            }
+            .post-image{
+                width: 94%;
+                margin: 0 auto;
+            }
+            .group-page-icon{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 10px 0;
+                flex-wrap: wrap;
+                .group-btn-card{
+                    width: 50%;
+                    Button{
+                        background-color:#FFFFFF;
+                        padding: 6px 10px;
+                        color:#2563EB;
+                        font-weight: 700;
+                        font-size: 14px;
+                        border-radius: 12px;
+                        border: none;
+                        outline: none;
+                        width: 40%;
+                        height: 2.5rem;
+                        margin: 5px 0;
+    
+                    }
+                }
+              
+                .group-bottom{
+                    display: flex;
+                    align-items: center;
+                    .mbrs-icon {
+                        margin-left: -50px;
+                    }                    }
+                
+                }
+            
+        }
+    }
+}
